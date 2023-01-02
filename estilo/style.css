@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*
+==========Configurações globais=========
+*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*
+==================Corpo=================
+*/
+body{
+    width: 100%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-size: larger;
+}
+/*
+================Cabeçalho===============
+*/
+header{
+    background-color: #000000;
+    color: #ffffff;
+}
+/*
+================Conteúdo================
+*/
+main p{
+    font-size: 1.8em;
+    line-height: 2em;
+}
+#bg01{
+    display: flex;
+    align-items: center;
+    padding: 1.2%;
+    height: 100vh;
+    width: 100%;
+    background: #ffffff url(../imagens/background001.jpg) no-repeat right center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#bg01 p{
+    background-color: #0000007b;
+    font-family: cursive;
+    color: #ffffff;
+
+}
+
+#bg02{
+    background-image: url(../imagens/background002.jpg);
+}
+p{
+    margin-bottom: 1.5em;
+}
+/*
+=================Rodapé=================
+*/
+footer{
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
