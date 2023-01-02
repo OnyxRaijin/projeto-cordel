@@ -5,7 +5,7 @@
 </ul>
 
 # Projeto Online
-Acesse aqui o projeto: -vazio-
+<a href="https://onyxraijin.github.io/projeto-cordel/">Acesse aqui o projeto</a>
 
 
 # Contribuições:
