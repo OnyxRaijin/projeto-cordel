@@ -11,45 +11,61 @@
 */
 body{
     width: 100%;
+    min-height: 100vh;
     scroll-behavior: smooth;
     box-sizing: border-box;
     font-size: larger;
 }
+body a{    
+    color: #ffffff;}
 /*
 ================Cabeçalho===============
 */
 header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    margin: 0 auto;
     background-color: #000000;
     color: #ffffff;
+    height: 10em;
+}
+header h1{
+    font-size: 5em;
 }
 /*
 ================Conteúdo================
 */
-main p{
-    font-size: 1.8em;
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
+    padding-left: 1.875em;
+    font-family: cursive;
+    font-size: 3.5vw;
+}
+section.bg-img p{
+    display:inline-block;
+    padding: 0.3125em;
+    background-color: #00000083;
+}
+.bg-img{
+    box-shadow: inset 6px 6px 13px 0px #00000078;
+    background-color: #0000007b;
+    background:center right fixed;
+    background-size: cover;
+    color: #ffffff;
 }
 #bg01{
-    display: flex;
-    align-items: center;
-    padding: 1.2%;
-    height: 100vh;
-    width: 100%;
-    background: #ffffff url(../imagens/background001.jpg) no-repeat right center;
-    background-size: cover;
-    background-attachment: fixed;
-
+    background-image:url(../imagens/background001.jpg);
 }
-#bg01 p{
-    background-color: #0000007b;
-    font-family: cursive;
-    color: #ffffff;
-
-}
-
 #bg02{
     background-image: url(../imagens/background002.jpg);
 }
+
 p{
     margin-bottom: 1.5em;
 }
@@ -57,6 +73,7 @@ p{
 =================Rodapé=================
 */
 footer{
+    height: 5em;
     text-align: center;
     background-color: #000000;
     color: #ffffff;
